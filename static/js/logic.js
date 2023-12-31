@@ -1,26 +1,26 @@
-function csvJSON(csv) {
-    const lines = csv.split('\n');
-    const result = [];
-    const headers = lines[0].split(',');
+// function csvJSON(csv) {
+//     const lines = csv.split('\n');
+//     const result = [];
+//     const headers = lines[0].split(',');
   
-    for (let i = 1; i < lines.length; i++) {
-      const obj = {};
-      const currentLine = lines[i].split(',');
+//     for (let i = 1; i < lines.length; i++) {
+//       const obj = {};
+//       const currentLine = lines[i].split(',');
   
-      // Check if the current line has the expected number of columns
-      if (currentLine.length === headers.length) {
-        for (let j = 0; j < headers.length; j++) {
-          obj[headers[j].trim()] = currentLine[j].trim();
-        }
+//       // Check if the current line has the expected number of columns
+//       if (currentLine.length === headers.length) {
+//         for (let j = 0; j < headers.length; j++) {
+//           obj[headers[j].trim()] = currentLine[j].trim();
+//         }
   
-        result.push(obj);
-      } else {
-        console.error(`Skipping line ${i} due to incorrect number of columns.`);
-      }
-    }
+//         result.push(obj);
+//       } else {
+//         console.error(`Skipping line ${i} due to incorrect number of columns.`);
+//       }
+//     }
   
-    return result;
-}
+//     return result;
+// }
   
 // Define the tile layer
 const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

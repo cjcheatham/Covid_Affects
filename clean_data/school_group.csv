@@ -1,0 +1,69 @@
+state_name,state,YYYY-MM,TotalCasesStudents
+Arkansas,AR,2020-10,3794
+Arkansas,AR,2020-11,5312
+Arkansas,AR,2020-12,6698
+Arkansas,AR,2021-01,7051
+Arkansas,AR,2021-02,3286
+Arkansas,AR,2021-03,185
+Arkansas,AR,2021-04,917
+Arkansas,AR,2021-05,530
+Colorado,CO,2020-10,32
+Colorado,CO,2020-11,83
+Colorado,CO,2020-12,632
+Colorado,CO,2021-01,207
+Colorado,CO,2021-02,198
+Colorado,CO,2021-03,507
+Colorado,CO,2021-04,336
+Colorado,CO,2021-05,1096
+Colorado,CO,2021-06,2120
+Colorado,CO,2021-07,190
+Delaware,DE,2021-02,605
+Delaware,DE,2021-03,149
+Delaware,DE,2021-04,234
+Delaware,DE,2021-05,132
+Delaware,DE,2021-06,25
+Kansas,KS,2020-11,287
+Kansas,KS,2020-12,105
+Kansas,KS,2021-01,19
+Kansas,KS,2021-02,6
+Kansas,KS,2021-03,7
+Kansas,KS,2021-04,11
+Kansas,KS,2021-05,23
+Kentucky,KY,2020-10,449
+Kentucky,KY,2020-11,2021
+Kentucky,KY,2020-12,1753
+Louisiana,LA,2020-10,1724
+Louisiana,LA,2020-11,2996
+Louisiana,LA,2020-12,4092
+Louisiana,LA,2021-01,4439
+Louisiana,LA,2021-02,4391
+Louisiana,LA,2021-03,1583
+Louisiana,LA,2021-04,755
+Louisiana,LA,2021-05,1265
+Massachusetts,MA,2020-09,58
+Massachusetts,MA,2020-10,511
+Massachusetts,MA,2020-11,976
+Massachusetts,MA,2020-12,1848
+Massachusetts,MA,2021-01,1766
+Massachusetts,MA,2021-02,1376
+Massachusetts,MA,2021-03,2637
+Massachusetts,MA,2021-04,2607
+Massachusetts,MA,2021-05,1759
+Massachusetts,MA,2021-06,251
+Ohio,OH,2020-10,3542
+Ohio,OH,2020-11,8000
+Ohio,OH,2020-12,7112
+Ohio,OH,2021-01,10531
+Ohio,OH,2021-02,5456
+Ohio,OH,2021-03,3076
+Ohio,OH,2021-04,4122
+Ohio,OH,2021-05,3651
+Ohio,OH,2021-06,107
+Washington DC,DC,2020-11,0
+Washington DC,DC,2020-12,12
+Washington DC,DC,2021-01,15
+Washington DC,DC,2021-02,29
+Washington DC,DC,2021-03,41
+Washington DC,DC,2021-04,38
+Washington DC,DC,2021-05,32
+Washington DC,DC,2021-06,10
