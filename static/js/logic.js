@@ -1,27 +1,3 @@
-// function csvJSON(csv) {
-//     const lines = csv.split('\n');
-//     const result = [];
-//     const headers = lines[0].split(',');
-  
-//     for (let i = 1; i < lines.length; i++) {
-//       const obj = {};
-//       const currentLine = lines[i].split(',');
-  
-//       // Check if the current line has the expected number of columns
-//       if (currentLine.length === headers.length) {
-//         for (let j = 0; j < headers.length; j++) {
-//           obj[headers[j].trim()] = currentLine[j].trim();
-//         }
-  
-//         result.push(obj);
-//       } else {
-//         console.error(`Skipping line ${i} due to incorrect number of columns.`);
-//       }
-//     }
-  
-//     return result;
-// }
-  
 // Define the tile layer
 const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -31,24 +7,24 @@ const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.pn
 const myMap = L.map('map').setView([37.8, -96], 5); // Set initial view
 tileLayer.addTo(myMap); // Add the tile layer to the map
 
-// Load your CSV data
-fetch('../clean_data/school_clean_data.csv') // Replace with your CSV file path
+// Load CSV data
+fetch('../clean_data/school_clean_data.csv')
     .then(response => response.text())
     .then(csvData => {
         // Convert CSV data to JSON
-        const yourData = csvJSON(csvData);
+        const enrollmentData = csvJSON(csvData);
 
         // Import the GeoJSON data from geoJsonData.js
         import('./geoJsonData.js')
             .then(module => {
-                const geoJsonData = module.default; // Assuming geoJsonData is the default export
+                const geoJsonData = module.default;
 
-                // Merge your data with the GeoJSON data based on state names
+                // Merge data with the GeoJSON data based on state names
                 geoJsonData.features.forEach(stateFeature => {
-                    const stateName = stateFeature.properties.name; // Replace with your GeoJSON property name
+                    const stateName = stateFeature.properties.name; 
 
-                    // Find corresponding data from your JSON file
-                    const correspondingData = yourData.find(data => data.state_name === stateName);
+                    // Find corresponding data from JSON file
+                    const correspondingData = enrollmentData.find(data => data.state_name === stateName);
 
                     // Attach the additional data to the GeoJSON feature properties
                     if (correspondingData) {
@@ -63,7 +39,7 @@ fetch('../clean_data/school_clean_data.csv') // Replace with your CSV file path
                 L.geoJSON(geoJsonData, {
                     style: function (feature) {
                         const stateName = feature.properties.name; // Get the state name from GeoJSON data
-                        const correspondingData = yourData.find(data => data.state_name === stateName);
+                        const correspondingData = enrollmentData.find(data => data.state_name === stateName);
 
                         if (correspondingData) {
                             const inpersonPercentage = parseFloat(correspondingData.inperson);

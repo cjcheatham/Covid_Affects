@@ -88,3 +88,9 @@ html {
 .text-box .numbered-point {
   margin-top: 10px;
 }
+
+.custom-title-box {
+  width: 100%; /* Adjust the width percentage as needed */
+  margin: 0 auto; /* Center the box horizontally */
+  /* Additional styling if needed */
+}

@@ -16,9 +16,9 @@ function fetchAndParseCSV(url) {
         .catch(error => {
             console.error('Error fetching or parsing CSV:', error);
         });
-}
+};
 
-// Load your CSV data
+// Load CSV data
 Promise.all([
     fetchAndParseCSV('../clean_data/school_clean_data.csv'),
     fetchAndParseCSV('../clean_data/school_group.csv')
@@ -57,7 +57,7 @@ Promise.all([
 function optionChanged(newSample) {
     buildMetadata(newSample);
     buildCharts(newSample);
-}
+};
 
 // Function to build metadata
 function buildMetadata(sample) {
@@ -65,7 +65,7 @@ function buildMetadata(sample) {
     const cleanDataMatch = caseData1.find(row => row.state === sample);
     const groupDataMatch = caseData2.find(row => row.state === sample);
 
-    // Assuming your metadata panel has a div with id 'sample-metadata'
+    // Assing panel with 'sample-metadata'
     const panel = d3.select("#sample-metadata");
 
     // Clear existing metadata
@@ -76,14 +76,8 @@ function buildMetadata(sample) {
         Object.entries(cleanDataMatch).forEach(([key, value]) => {
             panel.append("h6").text(`${key}: ${value}`);
         });
-    }
-
-    // if (groupDataMatch) {
-    //     Object.entries(groupDataMatch).forEach(([key, value]) => {
-    //         panel.append("h6").text(`${key}: ${value}`);
-    //     });
-    // }
-}
+    };
+};
 
 // Function to build charts
 function buildCharts(sample) {
@@ -101,7 +95,7 @@ function buildCharts(sample) {
             }
         });
 
-        // Create trace for bar chart
+   
         // Create trace for bar chart
         let barTrace = {
             x: years,
@@ -113,15 +107,13 @@ function buildCharts(sample) {
 
         let barLayout = {
             title: `Total Cases for ${sample}`,
-            xaxis: { title: 'Year-MM' },
+            xaxis: { title: 'Year-MM', tickangle: 45},
             yaxis: { title: 'Total Cases' }
         };
 
         Plotly.newPlot('bar', barData, barLayout); 
-        // call function plotGuage to plot gauge chart
-        // plotGauge(wFreq)
 
     } else {
         console.error('No group data found for the selected state');
-    }
-}
+    };
+};
