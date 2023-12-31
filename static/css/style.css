@@ -1,6 +1,12 @@
 body {
   padding: 0;
   margin: 0;
+  .custom-h1 {
+    font-size: 50px; /* Larger font size for h1 */
+  }  
+  .custom-h2 {
+    font-size: 30px; /* Larger font size for h2 */
+  }
 }
 
 #map,
@@ -9,10 +15,6 @@ html {
   height: 100%;
   width: 100%;
 }
-
-/* .info.legend {
-    background-color: white;
-} */ 
 
 /*Custom CSS for styling th popup*/
 
@@ -38,4 +40,51 @@ html {
   float: left;
   margin-right: 8px;
   font-size: 20px;
+}
+
+.container {
+  background-color: white;
+  background-image: url('../html_image/img1.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.row {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.custom-h1 {
+  font-size: 36px; /* Larger font size for h1 */
+}
+.hero {
+  text-align: center; /* Center-align the text */ 
+}
+.schoolIMG img {
+  width: 50%; /* Adjust the width of the image as needed */
+  float: left; /* Float the image to the left */
+}
+
+.text-box {
+  width: 50%; /* Adjust the width of the text box */
+  float: right; /* Float the image to the left */
+  margin-top: 40px;
+}
+
+/* Additional styling for the text inside the text box */
+.text-box p {
+  font-size: 18px; /* Example font size */
+  /* Add any other styling as needed */
+}
+
+/* Add padding or margin to the numbered points */
+.text-box .numbered-point {
+  margin-top: 10px;
 }
