@@ -3,7 +3,7 @@ function csvJSON(csv) {
     const result = [];
     const headers = lines[0].split(',');
   
-    for (let i = 1; i < lines.length; i++) {
+    for (let i = 1; i < lines.length-1; i++) {
       const obj = {};
       const currentLine = lines[i].split(',');
   

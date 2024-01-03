@@ -39,8 +39,22 @@ fetch('../clean_data/school_clean_data.csv')
                 L.geoJSON(geoJsonData, {
                     style: function (feature) {
                         const stateName = feature.properties.name; // Get the state name from GeoJSON data
-                        const correspondingData = enrollmentData.find(data => data.state_name === stateName);
+                        var correspondingData = enrollmentData.find(data => data.state_name === stateName);
 
+                        // If no Data
+                        if (!correspondingData) {
+                            correspondingData = {
+                                inperson: 0,
+                                virtual: 0,
+                                hybrid: 0,
+                            };
+                            feature.properties.inperson = "No Data";
+                            feature.properties.virtual = "No Data";
+                            feature.properties.hybrid = "No Data";
+                            feature.properties.enrollment = "No Data";    
+                        }
+
+                        // If has Data
                         if (correspondingData) {
                             const inpersonPercentage = parseFloat(correspondingData.inperson);
                             const hybridPercentage = parseFloat(correspondingData.hybrid);
@@ -50,32 +64,32 @@ fetch('../clean_data/school_clean_data.csv')
                             const totalPercentage = inpersonPercentage + hybridPercentage + virtualPercentage;
 
                             // Default style for states not in the school_clean_data
-                            let fillColor = '#625f5c'; // Gray color for states not in the data
+                            let fillColor = 'gray'; // Gray color for states not in the data
 
-                            // Change fill color based on in-person attendance percentage
-                            if (totalPercentage === 0 || isNaN(totalPercentage)) {
-                                fillColor = '#625f5c'; // Gray color for states without any data
-                            } else {
-                                const inpersonPercent = inpersonPercentage;
+                                const inpersonPercent = parseInt(inpersonPercentage);
+                                // console.log(inpersonPercent);
 
                                 if (inpersonPercent > 75) {
                                     fillColor = 'red'; // Red color for over 75%
-                                } else if (inpersonPercent >= 50 && inpersonPercent <= 75) {
+                                } else if (inpersonPercent >= 50) {
                                     fillColor = 'brown'; // Brown color for 50% to 75%
-                                } else if (inpersonPercent >= 25 && inpersonPercent < 50) {
+                                } else if (inpersonPercent >= 25) {
                                     fillColor = 'orange'; // Orange color for 25% to 50%
-                                } else if (inpersonPercent < 25) {
+                                } else if (inpersonPercent > 0) {
                                     fillColor = 'green'; // Green color for 0% to 25%
+                                } else{
+                                    fillColor = 'gray'; // Gray color for other
                                 }
-                            };
 
 
                             return {
                                 color: '#000', // Border color
                                 weight: 1,
-                                fillOpacity: 0.6,
+                                fillOpacity: 0.5,
                                 fillColor: fillColor // Fill color
                             };
+                        }else{
+
                         }
                     },    
                     onEachFeature: function (feature, layer) {

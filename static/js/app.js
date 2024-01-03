@@ -107,7 +107,7 @@ function buildCharts(sample) {
 
         let barLayout = {
             title: `Total Cases for ${sample}`,
-            xaxis: { title: 'Year-MM', tickangle: 45},
+            xaxis: { title: 'Month-Year', tickangle: 45},
             yaxis: { title: 'Total Cases' }
         };
 
