@@ -90,7 +90,7 @@ function buildCharts(sample) {
         // Extract year-mm and case number for the selected state from group data
         caseData2.forEach(row => {
             if (row.state === sample) {
-                years.push(row['YYYY-MM']);
+                years.push(row['EndDate']);
                 cases.push(+row['TotalCasesStudents']); // Convert to number
             }
         });
