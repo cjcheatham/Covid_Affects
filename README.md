@@ -12,11 +12,12 @@ Data Cleaning Process:
 
     Using Python:
     
-    1. SchoolPy.ipynb: Imported two datasets from COVID School Data Hub: District_Monthly_Shares_03.08.23.csv and NCES_2020-2021_School_Demographics.csv. The former details each school district's learning method shares 
-    (Hybrid, Virtual, Inperson) during 2020 to 2021, while the latter includes total enrollment figures per state.
+    1. SchoolPy.ipynb: Imported two datasets from COVID School Data Hub: District_Monthly_Shares_03.08.23.csv and 
+       NCES_2020-2021_School_Demographics.csv. The former details each school district's learning method shares 
+       (Hybrid, Virtual, Inperson) during 2020 to 2021, while the latter includes total enrollment figures per state.
         
-    2. Filtered and merged these datasets into a single dataframe, focusing on essential columns and creating pie charts to display 
-    the learning method percentages during this period.
+    2. Filtered and merged these datasets into a single dataframe, focusing on essential columns and creating pie charts to 
+       display the learning method percentages during this period.
         
     3. Exported the school_merged_data dataframe to school_clean_data.csv for interactive visualization in JavaScript.
         
@@ -24,8 +25,8 @@ Data Cleaning Process:
         
     5. Created a new dataframe including pertinent columns for analysis and processed the data to ensure consistency.
         
-    6. Derived a clean dataset for school_group with columns representing time periods and student case counts for MAP plotting in 
-    JavaScript.
+    6. Derived a clean dataset for school_group with columns representing time periods and student case counts for MAP 
+       plotting in JavaScript.
 
 Data Analysis Process:
 
@@ -33,15 +34,15 @@ Data Analysis Process:
     
     1. Created csvJSON.js functions to import CSV files.
         
-    2. Utilized logic.js to generate interactive MAP visuals depicting each state's reporting datasets, total enrollment counts, and 
-    the distribution of inperson, hybrid, and virtual learning methods.
+    2. Utilized logic.js to generate interactive MAP visuals depicting each state's reporting datasets, total enrollment 
+       counts, and the distribution of inperson, hybrid, and virtual learning methods.
         
     3. Employed geoJsonData.js to outline state borders using GeoJSON polygon coordinates.
     
     4. Developed map.html to showcase the interactive MAP.
         
-    5. Designed app.js to import school_group.csv for interactive state selector visuals displaying K-12 school enrollment and monthly 
-    bar chart representation from June 2020 to June 2021. 
+    5. Designed app.js to import school_group.csv for interactive state selector visuals displaying K-12 school enrollment 
+       and monthly bar chart representation from June 2020 to June 2021. 
         
     6. Crafted index1.html for an interactive page housing the selector and bar chart.
         
@@ -53,8 +54,8 @@ Database Integration:
     
     1. Created the covid_school_schema to import school_clean_data and school_group datasets.
         
-    2. Implemented an ETL process, setting school_clean_data['state'] as the primary key and establishing a one-to-many relationship 
-    with school_group['state'].
+    2. Implemented an ETL process, setting school_clean_data['state'] as the primary key and establishing a one-to-many 
+       relationship with school_group['state'].
         
     3. Executed queries on both tables to validate the accurate importation and organization of the database.
 
