@@ -1,34 +1,33 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Earthquake Interactive Map</title>
-
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin="" />
-
-  <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Covid</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <style>
+        h1 { 
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-
-  <!-- The div that holds our map -->
-  <div id="map"></div>
-
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
-  <!-- D3 JavaScript -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <!-- Our JavaScript -->
-  <script type="text/javascript" src="static/js/logic.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 jumbotron text-center">
+                <h1 class="custom-h1">Covid affect or Not?</h1>
+                <p><h2>Anushya Mani, Cody Cheatham, Jovane Cano, Yee Wai Huang</h2></p>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <p><h1><a href="cases_vaccinations_map.html" target="blank">Covid 19 Cases and Vaccinations by State</a></h1></p>
+        <p><h1><a href="index2.html" target="_blank">Impact of Covid-19 on K-12 Education</a></h1></p>
+        <p><h1><a href="map.html" target="_blank">Parental Challenges and Covid-19 Cases</a></h1></p>
+        <p><h1><a href="index1.html" target="_blank">Data Reporting and Interactive Analysis</a></h1></p>
+    </div>
 </body>
-
 </html>
