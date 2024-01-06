@@ -4,6 +4,7 @@
 **National Level - Monthly Percentage Change in Consumer Spending**
 Using data collected by [Affinity Solutions](https://www.affinity.solutions/) I analyzed the monthly percentage change in credit/debit card spending for US consumers for a variety of categories.  
 The Consumer Spending categories are listed below, along with their descriptions:  
+
     - 'spend_all': 'Total Spending'
     - 'spend_aap': 'Spending in Apparel and Accessories'  
     - 'spend_acf': 'Spending in Accommodation and Food Services'  
