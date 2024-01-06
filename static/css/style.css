@@ -68,20 +68,19 @@ html {
   text-align: center; /* Center-align the text */ 
 }
 .schoolIMG img {
-  width: 50%; /* Adjust the width of the image as needed */
+  width: 50%; /* Adjust the width of the image */
   float: left; /* Float the image to the left */
 }
 
 .text-box {
   width: 50%; /* Adjust the width of the text box */
-  float: right; /* Float the image to the left */
+  float: right; /* Float the image to the right */
   margin-top: 40px;
 }
 
 /* Additional styling for the text inside the text box */
 .text-box p {
-  font-size: 18px; /* Example font size */
-  /* Add any other styling as needed */
+  font-size: 18px;
 }
 
 /* Add padding or margin to the numbered points */
@@ -90,7 +89,21 @@ html {
 }
 
 .custom-title-box {
-  width: 100%; /* Adjust the width percentage as needed */
+  width: 100%; /* Adjust the width percentage */
   margin: 0 auto; /* Center the box horizontally */
-  /* Additional styling if needed */
+}
+
+.button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
