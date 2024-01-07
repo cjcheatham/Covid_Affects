@@ -29,4 +29,10 @@ The Consumer Spending categories are listed below, along with their descriptions
    - It took a full year for consumer spending to increase month-to-month; **Total consumer spending declined from Jan. 2020 to Jan. 2021.**
    - Fortunately, as the rest of the chart depicts, **the economy gradually recovered from the pandemic, seeing positive GDP growth as soon as Jan. 2021.**
      
-![Total Consumer Spending Jan. 2020 to Dec. 2023](https://github.com/cjcheatham/Project_3/blob/jcano/newplot.png)
+![Total Consumer Spending Jan. 2020 to Dec. 2023](https://github.com/cjcheatham/Project_3/blob/jcano/newplot.png)  
+
+  
+2. **Total Consumer Spending v.s. Consumer Spending in Transportation**
+   -
+
+![Total Consumer Spending v.s. Consumer Spending in Transportation](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(1).png)
