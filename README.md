@@ -40,9 +40,20 @@ The Consumer Spending categories are listed below, along with their descriptions
 ![Total Consumer Spending v.s. Consumer Spending in Transportation](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(1).png)  
 
 
-##**3. Consumer Spending in In-Person Services v.s. Remote Services**  
+## **3. Consumer Spending in In-Person Services v.s. Remote Services**  
 
 -As the following chart displays, **remote services saw a tremendous growth during Covid**, with Covid bringing the age of hybrid work and schooling.  
 -Only a small fraction of schools offered online coureses and hybrid work was not a common thing.  
 -This is not necessarily a bad thing as it allows for more flexiable schedules, accommadates for different lifestyles/living arrangements, and grants access to opportunties that weren't otherwise an option.  
-![Spending: In-Person Services v.s. Remote Services](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(4).png)
+![Spending: In-Person Services v.s. Remote Services](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(4).png)  
+  
+
+## **4. Overview of National Consumer Spending by Categories**  
+- Lastly, I analyzed Consumer Spending by all categories.
+- **Some of the least affected categories were the following: Spending in Durable Goods, Spending in Sporting Goods and Hobby, Spending in Grocery and Food Stores, and Spending in Home Improvement Centers.**
+![Least affected Consumer Spending Categories](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(4).png) 
+    
+- **Most affected categories were the following: Spending in In-Person Services and Spending in Transportation.**
+![Most affected Consumer Spending Categories](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(4).png)
+
+  ![Overview of Consumer Spending Since Covid-19 (All Categories)](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(4).png)
