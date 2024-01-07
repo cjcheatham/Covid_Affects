@@ -49,11 +49,12 @@ The Consumer Spending categories are listed below, along with their descriptions
   
 
 ## **4. Overview of National Consumer Spending by Categories**  
-- Lastly, I analyzed Consumer Spending by all categories.
+- Lastly, I analyzed Consumer Spending by all categories.  
 **Some of the least affected categories were the following: Spending in Durable Goods, Spending in Sporting Goods and Hobby, Spending in Grocery and Food Stores, and Spending in Home Improvement Centers.**
-![Least affected Consumer Spending Categories](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(4).png) 
+![Least affected Consumer Spending Categories](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(7).png) 
     
 **Most affected categories were the following: Spending in In-Person Services and Spending in Transportation.**
-![Most affected Consumer Spending Categories](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(4).png)
+![Most affected Consumer Spending Categories](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(6).png)  
 
-![Overview of Consumer Spending Since Covid-19 (All Categories)](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(4).png)
+**Overview of Consumer Spending Since Covid-19 (All Categories)**
+![Overview of Consumer Spending Since Covid-19 (All Categories)](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(3).png
