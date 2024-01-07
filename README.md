@@ -45,4 +45,4 @@ The Consumer Spending categories are listed below, along with their descriptions
     -As the following chart displays, **remote services saw a tremendous growth during Covid**, with Covid bringing the age of hybrid work and schooling. 
     -Only a small fraction of schools offered online coureses and hybrid work was not a common thing.  
     -This is not necessarily a bad thing as it allows for more flexiable schedules, accommadates for different lifestyles/living arrangements, and grants access to opportunties that weren't otherwise an option.  
-    
+    ![Spending: In-Person Services v.s. Remote Services](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(4).png)
