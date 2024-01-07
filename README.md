@@ -57,4 +57,4 @@ The Consumer Spending categories are listed below, along with their descriptions
 ![Most affected Consumer Spending Categories](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(6).png)  
 
 **Overview of Consumer Spending Since Covid-19 (All Categories)**
-![Overview of Consumer Spending Since Covid-19 (All Categories)](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(3).png
+![Overview of Consumer Spending Since Covid-19 (All Categories)](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(3).png)
