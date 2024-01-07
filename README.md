@@ -22,7 +22,7 @@ The Consumer Spending categories are listed below, along with their descriptions
     'spend_remoteservices': 'Spending in Remote Services'  
     'spend_inperson': 'Spending in In-Person Services'  
 
-1. Percent Change in Total Consumer Spending (Jan. 20202 to December 2023)
+**1. Percent Change in Total Consumer Spending (Jan. 20202 to December 2023)**
    - With the first case of Covid offically being diagnosed in late January of 2020, consumer spending did not decrease much in February (-0.8%).
    - However, as the nation became more of aware of this deadly virus in the following weeks, consumer spending declined. Unsurprisingly, total consumer spending saw its lowest point shortly after the nationwide lockdown was announced.
      The lockdown was announced in March and within just one month, **nationwide consumer spending dropped by about 28% in April.**
@@ -32,7 +32,10 @@ The Consumer Spending categories are listed below, along with their descriptions
 ![Total Consumer Spending Jan. 2020 to Dec. 2023](https://github.com/cjcheatham/Project_3/blob/jcano/newplot.png)  
 
   
-2. **Total Consumer Spending v.s. Consumer Spending in Transportation**
-   -
+**2. Total Consumer Spending v.s. Consumer Spending in Transportation**
+   - A category that was of interest for us was Transportation/Engery.
+   - As expected, with the lockdown taking place and most of us afraid of contracting the Covid-19 virus, Transportation and Energy consumption saw a decline. However, what did come as a surprise was the extent of the decline in Transportion in comparison to the Total Consumer Spending, as well as their recoveries.
+   - As mentioned earlirer, a month after lockdowns were announced, **Total Consumer Spending had declined by approximately 28% since Covid-19**. Whereas, **Transportation/Energy consumption dropped by as much as 75% by April** which is a significant difference.
+   - Furthermore, while total consumer spending returned to its pre-Covid levels by Jan. 2021, spending in Transportion did not unitl May of 2022, about a a year and a half after the lockdown ended here in the US. 
 
 ![Total Consumer Spending v.s. Consumer Spending in Transportation](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(1).png)
