@@ -37,7 +37,7 @@ The Consumer Spending categories are listed below, along with their descriptions
    - As expected, with the lockdown taking place and most of us afraid of contracting the Covid-19 virus, Transportation and Energy consumption saw a decline. However, what did come as a surprise was the extent of the decline in Transportion in comparison to the Total Consumer Spending, as well as their recoveries.
    - As mentioned earlirer, a month after lockdowns were announced, **Total Consumer Spending had declined by approximately 28% since Covid-19**. Whereas, **Transportation/Energy consumption dropped by as much as 75% by April** which is a significant difference.
    - Furthermore, while total consumer spending returned to its pre-Covid levels by Jan. 2021, spending in Transportion did not unitl May of 2022, about a a year and a half after the lockdown ended here in the US. 
-![Total Consumer Spending v.s. Consumer Spending in Transportation](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(1).png)  
+![Total Consumer Spending v.s. Consumer Spending in Transportation](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(8).png)  
 
 
 ## **3. Consumer Spending in In-Person Services v.s. Remote Services**  
