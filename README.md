@@ -38,4 +38,11 @@ The Consumer Spending categories are listed below, along with their descriptions
    - As mentioned earlirer, a month after lockdowns were announced, **Total Consumer Spending had declined by approximately 28% since Covid-19**. Whereas, **Transportation/Energy consumption dropped by as much as 75% by April** which is a significant difference.
    - Furthermore, while total consumer spending returned to its pre-Covid levels by Jan. 2021, spending in Transportion did not unitl May of 2022, about a a year and a half after the lockdown ended here in the US. 
 
-![Total Consumer Spending v.s. Consumer Spending in Transportation](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(1).png)
+![Total Consumer Spending v.s. Consumer Spending in Transportation](https://github.com/cjcheatham/Covid_Affects/blob/jcano/newplot%20(1).png)  
+
+
+**3. Consumer Spending in In-Person Services v.s. Remote Services**   
+    -As the following chart displays, **remote services saw a tremendous growth during Covid**, with Covid bringing the age of hybrid work and schooling. 
+    -Only a small fraction of schools offered online coureses and hybrid work was not a common thing.  
+    -This is not necessarily a bad thing as it allows for more flexiable schedules, accommadates for different lifestyles/living arrangements, and grants access to opportunties that weren't otherwise an option.  
+    
