@@ -4,6 +4,8 @@
 
 Using data collected from the CDC, usafacts.org, and the US Census Buearu, I was able to analyze the total number of confirmed covid cases across a state's population while and also see which vaccine manufacturer administered the highest amount of vaccines in a given state.
 
+## Ethical Considerations:
+Initially our group considered analyzing real data from a fitness company that one of our team members works for. However, after taking look at the relevant data we decided that it disseminate or risk disseminating personal information about the company's clientele. Therefore, we chose to analyze Covid-19 data to see any new trends and the impact on national consumer spending as we were able to find anonymized data for our respective topics. We chose to analyze data at the highest levels where conclusions around race, age, political believes, etc. cannot be drawn. Lastly, all raw data sources and statistics found on national trends from the last few years have been referenced in this read me and in the google slide presentation as well. 
 
 ## Data
 
@@ -134,11 +136,12 @@ https://assets.ctfassets.net/9fbw4onh0qc1/Iz122B08nXi5KAj7Ibxqs/134dc4172e422bae
 
 https://github.com/PublicaMundi/MappingAPI/blob/master/data/geojson/us-states.json?short_path=1c1ebe5
 
-## Energy consumption analysis work:
+Section 3 ##  Energy consumption analysis work:
 Data sources:
 -    Total energy consumption from 1960-2021: https://www.eia.gov/state/seds/sep_use/total/csv/use_all_btu.csv
 -    Energy code definitions (used to determine that ‘RC’ = Residential consumption & AC = Transportation consumption : http://large.stanford.edu/courses/2016/ph240/goodwin2/docs/seds-consumption-2014.pdf 
 -    Population data per state from right before covid to 2023: https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html
+-    Guidance on how to create interactive bar plot with year/slider filter was pulled from this source : https://dev.to/chrisgreening/animating-60-years-of-us-energy-data-with-10-lines-of-python-afi (actual code and filters to manipulate energy data so that it is relevant to our covid analysis was done from scratch). 
 *Note, original data table headers and names were manually reformatted to allow for clean import into postgres and jupyter notebook (e.g. NST-EST2023-POP_orig cleaned to US population 2020 to 2023_ASM.csv. Also, raw BTU energy file titled use_all_btu was cleaned so that only the years of interest were included use_all_btu_ASM 22Dec23 for pop analysis).
 SQL/Postgres data joining:
 -    Use quick dbd to create structure for table that holds name and acronym for each state and export to postgres (table in postgres called stateabbrev).Import csv file titled State Abbreviations.csv.
