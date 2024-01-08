@@ -67,7 +67,7 @@ Theses visualizations are stored in the following html files:
 
 These files store each type of visualization into their respective html files. This is done so that they can be combined into the main html file used for this project, index.html. This file includes all analysis from all branches of this project, and will be shown on the main branch as well.
 
-Energy consumption analysis work:
+## Energy consumption analysis work:
 Data sources:
 -    Total energy consumption from 1960-2021: https://www.eia.gov/state/seds/sep_use/total/csv/use_all_btu.csv
 -    Energy code definitions (used to determine that ‘RC’ = Residential consumption & AC = Transportation consumption : http://large.stanford.edu/courses/2016/ph240/goodwin2/docs/seds-consumption-2014.pdf 
