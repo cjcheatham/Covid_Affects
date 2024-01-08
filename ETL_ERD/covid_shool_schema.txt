@@ -1,0 +1,17 @@
+# Physical
+
+school_clean_data
+-
+state PK VARCHAR(2)
+state_name VARCHAR(20)
+enrollment INT
+inperson INT
+hybrid INT
+vitual INT
+
+school_group
+-
+state_name VARCHAR(20)
+state VARCHAR FK >- school_clean_data.state
+EndDate VARCHAR(7)
+TotalCasesStudents INT
