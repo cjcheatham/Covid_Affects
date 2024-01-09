@@ -8,7 +8,7 @@ const myMap = L.map('map').setView([37.8, -96], 5); // Set initial view
 tileLayer.addTo(myMap); // Add the tile layer to the map
 
 // Load CSV data
-fetch('../clean_data/school_clean_data.csv')
+fetch('./clean_data/school_clean_data.csv')
     .then(response => response.text())
     .then(csvData => {
         // Convert CSV data to JSON

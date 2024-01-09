@@ -20,8 +20,8 @@ function fetchAndParseCSV(url) {
 
 // Load CSV data
 Promise.all([
-    fetchAndParseCSV('../clean_data/school_clean_data.csv'),
-    fetchAndParseCSV('../clean_data/school_group.csv')
+    fetchAndParseCSV('./clean_data/school_clean_data.csv'),
+    fetchAndParseCSV('./clean_data/school_group.csv')
 ]).then(([data1, data2]) => {
     caseData1 = data1;
     caseData2 = data2;
