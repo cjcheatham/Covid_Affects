@@ -1,5 +1,8 @@
 # Project_3 - Covid 19 Affect or not?
 
+## Deployed Link
+https://cjcheatham.github.io/Covid_Affects/
+
 ## Covid Cases and Vaccinations
 
 Using data collected from the CDC, usafacts.org, and the US Census Buearu, I was able to analyze the total number of confirmed covid cases across a state's population while and also see which vaccine manufacturer administered the highest amount of vaccines in a given state.
